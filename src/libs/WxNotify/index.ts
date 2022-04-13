@@ -14,7 +14,7 @@ console.log({ WX_COMPANY_ID, WX_APP_ID, WX_APP_SECRET })
 
 // 主函数
 export async function wxNotify(config: any) {
-/*  try {
+  try {
     // 获取token
     const accessToken = await getToken({
       id: WX_COMPANY_ID as string,
@@ -35,5 +35,5 @@ export async function wxNotify(config: any) {
   catch (error) {
     console.log('wx:信息发送失败！', error)
     return false
-  }*/
+  }
 }

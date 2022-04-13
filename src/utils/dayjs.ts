@@ -16,12 +16,10 @@ const WEEKS: { [key: number]: string } = {
 }
 
 export const weekToday = () => {
-  var myDate = new Date();
-
-  const week = myDate.getDay()
-  console.log("zzzz"+myDate)
-  console.log("zzzz"+week)
-  console.log("zzzz"+WEEKS[week])
+  const week = dayjs().add(8, 'hour').day()
+  console.log("星期"+week)
+  console.log("偏移前"+dayjs())
+  console.log("偏移后"+dayjs().add(8, 'hour'))
   return WEEKS[week]
 }
 
