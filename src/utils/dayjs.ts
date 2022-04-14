@@ -17,9 +17,10 @@ const WEEKS: { [key: number]: string } = {
 
 export const weekToday = () => {
   const week = dayjs().add(8, 'hour').day()
-  console.log("星期"+week)
   console.log("偏移前"+dayjs())
+  console.log("星期"+dayjs().day())
   console.log("偏移后"+dayjs().add(8, 'hour'))
+  console.log("星期"+week)
   return WEEKS[week]
 }
 
