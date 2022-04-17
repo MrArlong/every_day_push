@@ -56,6 +56,13 @@ class API {
     return res?.[0]
   }
 
+  // 明天天气
+  async getMananaWeather(city_name: string): Promise<IWeatherResponseProps> {
+    const res = await getTian({ url: LoveMsgURL.weather, params: { city: city_name } })
+    console.log(res)
+    return res?.[1]
+  }
+
   // 每日简报
   async getDailyBriefing() {
     const res = await getTian<DailyBriefing[]>({ url: LoveMsgURL.dailyBriefing })

@@ -198,7 +198,7 @@ schedule:
 
 提供 `config.yml` 配置文件，方便快速自定义调整内容参数
 
-如：女朋友所在城市为`蚌埠`，则 `city_name: 蚌埠`
+如：女朋友所在城市为`二七`，则 `city_name: 二七`
 
 yml语法比json更简洁易读，比较简单，[阮一峰 YAML 语言教程](https://www.ruanyifeng.com/blog/2016/07/yaml.htmls)
 
