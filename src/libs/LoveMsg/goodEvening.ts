@@ -85,7 +85,7 @@ const getStory = async() => {
   const template = {
     msgtype: 'text',
     text: {
-      content: `给鱼崽的今日份睡前故事来喽：
+      content: `给臭臭的今日份睡前故事来喽：
 🌑🌒🌓🌔🌕🌝😛\n
 『${res.title}』
 ${res.content}`,
@@ -98,5 +98,5 @@ ${res.content}`,
 // 执行函数
 export const goodEvening = async() => {
   await getStory()
-  await getNews()
+  //await getNews()
 }

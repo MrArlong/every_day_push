@@ -11,6 +11,7 @@ dotenv.config()
 const { MESSAGE_TYPE } = process.env
 
 export default function main() {
+  console.log("zzzz"+MESSAGE_TYPE)
   if (MESSAGE_TYPE === 'goodAfternoon') {
     // 午安
     goodAfternoon()

@@ -18,7 +18,7 @@ enum LoveMsgURL {
   // 韩寒主编的ONE一个杂志，本接口返回每日一句
   oneMagazines = 'http://api.tianapi.com/one/index',
   // 故事大全
-  storybook = 'http://api.tianapi.com/story/index',
+  storybook = 'http://api.tianapi.com/story/index?key=b8208a7a7f30e33107d9db0875439fa6',
   // 网易云热评
   netEaseCloud = 'http://api.tianapi.com/hotreview/index',
   // 获取农历信息
