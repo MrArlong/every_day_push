@@ -47,5 +47,5 @@ ${res.content}`,
 // 执行函数
 export const goodEvening = async() => {
   await mananaWeather()
-  await getStory()
+  //await getStory()
 }
